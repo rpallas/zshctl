@@ -1,0 +1,29 @@
+{
+  "name": "zshctl",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Robbie Pallas <rpallas@gmail.com>",
+  "description": "Simple command line tool for managing zshrc configuration",
+  "bin": {
+    "zshctl": "zshctl.js"
+  },
+  "scripts": {},
+  "main": "zshctl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rpallas/zshctl.git"
+  },
+  "keywords": [
+    "zshctl",
+    "zsh",
+    "zshell",
+    "zshrc"
+  ],
+  "dependencies": {
+    "commander": "~1.1.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
